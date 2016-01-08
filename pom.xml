@@ -72,6 +72,7 @@
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
         <net.sf.opencsv.version>1.8</net.sf.opencsv.version>
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
+        <org.antlr.ST4.version>4.0.8</org.antlr.ST4.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.ant.version>1.9.4</org.apache.ant.version>
         <org.apache.commons.lang3.version>3.4</org.apache.commons.lang3.version>
@@ -454,6 +455,11 @@
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr-runtime</artifactId>
                 <version>${org.antlr.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>ST4</artifactId>
+                <version>${org.antlr.ST4.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
